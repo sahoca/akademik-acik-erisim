@@ -1,0 +1,271 @@
+{
+  "total_flows": 2827876,
+  "n_features": 79,
+  "n_benign": 2271320,
+  "n_attack": 556556,
+  "attack_ratio": 0.19681060980042972,
+  "table1_models_5fold": [
+    {
+      "Model": "Karar Ağacı",
+      "accuracy_mean": 0.9945386572346063,
+      "accuracy_std": 9.312298346364981e-05,
+      "accuracy": "0.9945 ± 0.0001",
+      "balanced_accuracy_mean": 0.9964136973718789,
+      "balanced_accuracy_std": 2.2476312166834093e-05,
+      "balanced_accuracy": "0.9964 ± 0.0000",
+      "f1_mean": 0.9863086588755202,
+      "f1_std": 0.00022895421558975107,
+      "f1": "0.9863 ± 0.0002",
+      "precision_mean": 0.9734555995937286,
+      "precision_std": 0.0005413101350380448,
+      "precision": "0.9735 ± 0.0005",
+      "recall_mean": 0.9995058900680626,
+      "recall_std": 0.00010305821178972885,
+      "recall": "0.9995 ± 0.0001",
+      "roc_auc_mean": 0.9985586124739727,
+      "roc_auc_std": 2.2167819960565357e-05,
+      "roc_auc": "0.99856 ± 0.00002"
+    },
+    {
+      "Model": "Random Forest",
+      "accuracy_mean": 0.9971720825028536,
+      "accuracy_std": 0.0001023224177408288,
+      "accuracy": "0.9972 ± 0.0001",
+      "balanced_accuracy_mean": 0.997317155957853,
+      "balanced_accuracy_std": 0.00014830133166101318,
+      "balanced_accuracy": "0.9973 ± 0.0001",
+      "f1_mean": 0.9928495712903341,
+      "f1_std": 0.0002577446143094004,
+      "f1": "0.9928 ± 0.0003",
+      "precision_mean": 0.9881871228100447,
+      "precision_std": 0.0004683940915987546,
+      "precision": "0.9882 ± 0.0005",
+      "recall_mean": 0.9975564012734365,
+      "recall_std": 0.0002915445034580823,
+      "recall": "0.9976 ± 0.0003",
+      "roc_auc_mean": 0.9998441504622368,
+      "roc_auc_std": 1.323741571143589e-05,
+      "roc_auc": "0.99984 ± 0.00001"
+    },
+    {
+      "Model": "XGBoost",
+      "accuracy_mean": 0.9986880612926138,
+      "accuracy_std": 8.356261678954664e-05,
+      "accuracy": "0.9987 ± 0.0001",
+      "balanced_accuracy_mean": 0.9989723598159218,
+      "balanced_accuracy_std": 6.117192425060002e-05,
+      "balanced_accuracy": "0.9990 ± 0.0001",
+      "f1_mean": 0.9966762650364501,
+      "f1_std": 0.00021107253157530778,
+      "f1": "0.9967 ± 0.0002",
+      "precision_mean": 0.9939266656033381,
+      "precision_std": 0.00041200148798815374,
+      "precision": "0.9939 ± 0.0004",
+      "recall_mean": 0.9994412062563611,
+      "recall_std": 6.208622734458626e-05,
+      "recall": "0.9994 ± 0.0001",
+      "roc_auc_mean": 0.9999292311359073,
+      "roc_auc_std": 8.70164026537714e-06,
+      "roc_auc": "0.99993 ± 0.00001"
+    }
+  ],
+  "table2_top_shap": [
+    {
+      "Özellik": "Destination Port",
+      "Ort_Mutlak_SHAP": 1.4554334878921509
+    },
+    {
+      "Özellik": "Init_Win_bytes_forward",
+      "Ort_Mutlak_SHAP": 1.1725144386291504
+    },
+    {
+      "Özellik": "Average Packet Size",
+      "Ort_Mutlak_SHAP": 1.0332518815994263
+    },
+    {
+      "Özellik": "Init_Win_bytes_backward",
+      "Ort_Mutlak_SHAP": 0.9957009553909302
+    },
+    {
+      "Özellik": "Bwd Packet Length Std",
+      "Ort_Mutlak_SHAP": 0.8646008968353271
+    },
+    {
+      "Özellik": "Bwd Packet Length Min",
+      "Ort_Mutlak_SHAP": 0.6344565153121948
+    },
+    {
+      "Özellik": "Bwd Packet Length Mean",
+      "Ort_Mutlak_SHAP": 0.49533334374427795
+    },
+    {
+      "Özellik": "Bwd Header Length",
+      "Ort_Mutlak_SHAP": 0.30039602518081665
+    },
+    {
+      "Özellik": "Fwd Header Length",
+      "Ort_Mutlak_SHAP": 0.28856727480888367
+    },
+    {
+      "Özellik": "PSH Flag Count",
+      "Ort_Mutlak_SHAP": 0.24435554444789886
+    },
+    {
+      "Özellik": "Total Backward Packets",
+      "Ort_Mutlak_SHAP": 0.24114440381526947
+    },
+    {
+      "Özellik": "Fwd IAT Min",
+      "Ort_Mutlak_SHAP": 0.22112365067005157
+    },
+    {
+      "Özellik": "Max Packet Length",
+      "Ort_Mutlak_SHAP": 0.21678774058818817
+    },
+    {
+      "Özellik": "Total Fwd Packets",
+      "Ort_Mutlak_SHAP": 0.2087213397026062
+    },
+    {
+      "Özellik": "Bwd Packets/s",
+      "Ort_Mutlak_SHAP": 0.20862729847431183
+    }
+  ],
+  "table3_ablation_5fold": [
+    {
+      "Özellik Kümesi": "Tam Özellik Kümesi (79 özellik)",
+      "n_features": 79,
+      "accuracy": "0.9987 ± 0.0001",
+      "balanced_accuracy": "0.9990 ± 0.0001",
+      "f1": "0.9967 ± 0.0002",
+      "precision": "0.9939 ± 0.0004",
+      "recall": "0.9994 ± 0.0001",
+      "roc_auc": "0.99993 ± 0.00001"
+    },
+    {
+      "Özellik Kümesi": "Destination Port Çıkarılmış (78 özellik)",
+      "n_features": 78,
+      "accuracy_mean": 0.9981166076931555,
+      "accuracy_std": 0.0001348006227820939,
+      "accuracy": "0.9981 ± 0.0001",
+      "balanced_accuracy_mean": 0.9984992830308874,
+      "balanced_accuracy_std": 0.0001157201454332461,
+      "balanced_accuracy": "0.9985 ± 0.0001",
+      "f1_mean": 0.9952339701700155,
+      "f1_std": 0.00033979826196825567,
+      "f1": "0.9952 ± 0.0003",
+      "precision_mean": 0.9913680140862443,
+      "precision_std": 0.0006164007583218051,
+      "precision": "0.9914 ± 0.0006",
+      "recall_mean": 0.9991303660723416,
+      "recall_std": 0.00012165032933648686,
+      "recall": "0.9991 ± 0.0001",
+      "roc_auc_mean": 0.9998702197237772,
+      "roc_auc_std": 1.0836817166636455e-05,
+      "roc_auc": "0.99987 ± 0.00001"
+    },
+    {
+      "Özellik Kümesi": "Destination Port + Init_Win_bytes_forward Çıkarılmış (77 özellik)",
+      "n_features": 77,
+      "accuracy_mean": 0.9875521416103356,
+      "accuracy_std": 0.0001992979699656878,
+      "accuracy": "0.9876 ± 0.0002",
+      "balanced_accuracy_mean": 0.9906794862103279,
+      "balanced_accuracy_std": 0.00014476988407723776,
+      "balanced_accuracy": "0.9907 ± 0.0001",
+      "f1_mean": 0.9692214752142869,
+      "f1_std": 0.0004790089649841238,
+      "f1": "0.9692 ± 0.0005",
+      "precision_mean": 0.9439920772380426,
+      "precision_std": 0.0008757311426922926,
+      "precision": "0.9440 ± 0.0009",
+      "recall_mean": 0.995836897151649,
+      "recall_std": 0.00010863199815539837,
+      "recall": "0.9958 ± 0.0001",
+      "roc_auc_mean": 0.9993279345550199,
+      "roc_auc_std": 2.099155592330353e-05,
+      "roc_auc": "0.99933 ± 0.00002"
+    }
+  ],
+  "temporal_groupkfold": {
+    "accuracy_mean": 0.8071597898498888,
+    "accuracy_std": 0.13927435846573366,
+    "f1_mean": 0.1594602577882983,
+    "f1_std": 0.20114804282942295,
+    "balanced_acc_mean": 0.5348218780477496,
+    "balanced_acc_std": 0.07924166092939729
+  },
+  "file_info": {
+    "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv": {
+      "day": "Friday",
+      "total_flows": 225745,
+      "labels": {
+        "DDoS": 128027,
+        "BENIGN": 97718
+      }
+    },
+    "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv": {
+      "day": "Friday",
+      "total_flows": 286467,
+      "labels": {
+        "PortScan": 158930,
+        "BENIGN": 127537
+      }
+    },
+    "Friday-WorkingHours-Morning.pcap_ISCX.csv": {
+      "day": "Friday",
+      "total_flows": 191033,
+      "labels": {
+        "BENIGN": 189067,
+        "Bot": 1966
+      }
+    },
+    "Monday-WorkingHours.pcap_ISCX.csv": {
+      "day": "Monday",
+      "total_flows": 529918,
+      "labels": {
+        "BENIGN": 529918
+      }
+    },
+    "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv": {
+      "day": "Thursday",
+      "total_flows": 288602,
+      "labels": {
+        "BENIGN": 288566,
+        "Infiltration": 36
+      }
+    },
+    "Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv": {
+      "day": "Thursday",
+      "total_flows": 170366,
+      "labels": {
+        "BENIGN": 168186,
+        "Web Attack  Brute Force": 1507,
+        "Web Attack  XSS": 652,
+        "Web Attack  Sql Injection": 21
+      }
+    },
+    "Tuesday-WorkingHours.pcap_ISCX.csv": {
+      "day": "Tuesday",
+      "total_flows": 445909,
+      "labels": {
+        "BENIGN": 432074,
+        "FTP-Patator": 7938,
+        "SSH-Patator": 5897
+      }
+    },
+    "Wednesday-workingHours.pcap_ISCX.csv": {
+      "day": "Wednesday",
+      "total_flows": 692703,
+      "labels": {
+        "BENIGN": 440031,
+        "DoS Hulk": 231073,
+        "DoS GoldenEye": 10293,
+        "DoS slowloris": 5796,
+        "DoS Slowhttptest": 5499,
+        "Heartbleed": 11
+      }
+    }
+  },
+  "total_elapsed_min": 13.882015788555146
+}
