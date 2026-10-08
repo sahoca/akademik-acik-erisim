@@ -1,0 +1,2 @@
+variant,accuracy_mean,accuracy_std,balanced_accuracy_mean,balanced_accuracy_std,f1_mean,f1_std,precision_mean,precision_std,recall_mean,recall_std,roc_auc_mean,roc_auc_std,n_runs
+chrono_no_timeofday,0.9957471696718405,0.0,0.9929185331748119,0.0,0.7258200168208578,0.0,0.5729143615844213,0.0,0.990057361376673,0.0,0.9962981876107552,0.0,5

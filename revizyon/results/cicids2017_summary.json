@@ -1,0 +1,45 @@
+{
+  "n_flows": 2830743,
+  "n_attack": 557646,
+  "n_normal": 2273097,
+  "n_features_with_ip_time": 83,
+  "n_unique_src_ip": 17005,
+  "n_unique_dst_ip": 19112,
+  "time_of_day_nan_rate": 0.0,
+  "label_counts": {
+    "BENIGN": 2273097,
+    "DoS Hulk": 231073,
+    "PortScan": 158930,
+    "DDoS": 128027,
+    "DoS GoldenEye": 10293,
+    "FTP-Patator": 7938,
+    "SSH-Patator": 5897,
+    "DoS slowloris": 5796,
+    "DoS Slowhttptest": 5499,
+    "Bot": 1966,
+    "Web Attack  Brute Force": 1507,
+    "Web Attack  XSS": 652,
+    "Infiltration": 36,
+    "Web Attack  Sql Injection": 21,
+    "Heartbleed": 11
+  },
+  "B2_f1_means": {
+    "ip_included": 0.9999545711162494,
+    "ip_excluded": 0.9997519672017857,
+    "ip_and_time_excluded": 0.9992114605289973
+  },
+  "B2_f1_stds": {
+    "ip_included": 3.896674933068397e-06,
+    "ip_excluded": 1.841916644762909e-05,
+    "ip_and_time_excluded": 5.9474421553997385e-05
+  },
+  "B2_paired_t_ip": {
+    "t": 21.83797930122982,
+    "p": 2.6016843622225133e-05
+  },
+  "B2_paired_t_time": {
+    "t": 24.48643251198169,
+    "p": 1.650576748887545e-05
+  },
+  "elapsed_s": 829.2
+}
